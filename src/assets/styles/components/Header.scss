@@ -1,7 +1,7 @@
 .header {
   align-items: center;
-  background: #8f57fd;
-  color: white;
+  background: #FF9200;
+  color: black;
   display: flex;
   height: 100px;
   justify-content: space-between;
@@ -9,9 +9,14 @@
   width: 100%;
 }
 
+.isLogin, .isRegister {
+  background-color: #FF9200;
+}
+
 .header__img {
   margin-left: 30px;
-  width: 200px;
+  width: 40px;
+  height: 50px;
 }
 
 .header__menu {
@@ -37,7 +42,7 @@
 }
 
 .header__menu li a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
